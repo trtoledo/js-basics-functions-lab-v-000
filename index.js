@@ -10,4 +10,21 @@ function distanceTravelledInFeet(departureBlock, arrivalBlock){
   return Math.abs(arrivalBlock - departureBlock) * 264
 }
 
+function calculatesFarePrice (epartureBlock, arrivalBlock){
+  //return distanceTravelledInFeet(departureBlock, arrivalBlock)
+
+  switch (distanceTravelledInFeet(departureBlock, arrivalBlock)- 400) {
+  case '<= 0':
+    return 0;
+    break;
+  case '> 0 && 1600':
+    return (distanceTravelledInFeet(departureBlock, arrivalBlock)- 400) * 0.02
+    break;
+  case 'famished':
+    food = 'lasagna';
+    break;
+}
+
+}
+
 // Code your solution in this file!

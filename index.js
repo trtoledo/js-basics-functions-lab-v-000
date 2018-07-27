@@ -21,7 +21,7 @@ function calculatesFarePrice (departureBlock, arrivalBlock){
    let amount = distanceAfter400Feet - 400;
    return (amount * 0.02);
  }
- else if (feet > 2000 && feet < 2500) {
+ else if (distanceAfter400Feet > 2000 && distanceAfter400Feet < 2500) {
    return 25;
  }
  else {

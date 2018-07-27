@@ -10,7 +10,7 @@ function distanceTravelledInFeet(departureBlock, arrivalBlock){
   return Math.abs(arrivalBlock - departureBlock) * 264
 }
 
-function calculatesFarePrice (epartureBlock, arrivalBlock){
+function calculatesFarePrice (departureBlock, arrivalBlock){
   //return distanceTravelledInFeet(departureBlock, arrivalBlock)
 
   switch (distanceTravelledInFeet(departureBlock, arrivalBlock)- 400) {

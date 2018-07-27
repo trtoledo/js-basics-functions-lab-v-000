@@ -12,6 +12,7 @@ function distanceTravelledInFeet(departureBlock, arrivalBlock){
 
 function calculatesFarePrice (departureBlock, arrivalBlock){
   //return distanceTravelledInFeet(departureBlock, arrivalBlock)
+  let distanceAfter400Feet = Math.abs.distanceTravelledInFeet(departureBlock, arrivalBlock) - 400
 
   switch (Math.abs.distanceTravelledInFeet(departureBlock, arrivalBlock) - 400) {
   case '<= 0':

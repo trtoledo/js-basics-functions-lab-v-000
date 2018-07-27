@@ -1,11 +1,5 @@
-function distanceFromHqInBlocks(blockNumber){
-  var numberOfBlocks
-  numberOfBlocks = blockNumber - 42
-
-  if numberOfBlocks <= 1
-  return 1
-  else
-  return numberOfBlocks.round
+function distanceFromHqInBlocks(blockNumber) {
+    return Math.abs(blockNumber - 42);
 }
 
 // Code your solution in this file!

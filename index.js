@@ -23,7 +23,7 @@ function calculatesFarePrice (epartureBlock, arrivalBlock){
   case '> 1600 && < 2100':
     return 25;
     break;
-  case '> 1600 && < 2100':
+  case '< 2100':
     return 25;
     break;
 }

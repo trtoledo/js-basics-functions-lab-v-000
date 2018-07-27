@@ -15,16 +15,16 @@ function calculatesFarePrice (departureBlock, arrivalBlock){
   const distanceAfter400Feet = distanceTravelledInFeet(departureBlock, arrivalBlock)
 
   switch (distanceAfter400Feet) {
-  case '<= 400':
+  case 'distanceAfter400Feet <= 400':
     return 0;
     break;
-  case '> 400 && 2000':
+  case 'distanceAfter400Feet > 400 && 2000':
     return (distanceAfter400Feet) * 0.02
     break;
-  case '> 2000 && < 2500':
+  case 'distanceAfter400Feet > 2000 && < 2500':
     return 25;
     break;
-  case '< 2500':
+  case 'distanceAfter400Feet < 2500':
     return "cannot travel that far";
     break;
 }

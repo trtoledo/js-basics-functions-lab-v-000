@@ -20,8 +20,8 @@ function calculatesFarePrice (epartureBlock, arrivalBlock){
   case '> 0 && 1600':
     return (distanceTravelledInFeet(departureBlock, arrivalBlock)- 400) * 0.02
     break;
-  case 'famished':
-    food = 'lasagna';
+  case '> 1600 && < 2100':
+    return 25;
     break;
 }
 

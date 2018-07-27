@@ -8,8 +8,6 @@ function distanceFromHqInFeet(blockNumber){
 
 function distanceTravelledInFeet(departureBlock, arrivalBlock){
   return Math.abs(arrivalBlock - departureBlock) * 264
-
-
 }
 
 // Code your solution in this file!

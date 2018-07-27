@@ -24,7 +24,7 @@ function calculatesFarePrice (departureBlock, arrivalBlock){
   case '> 2000 && < 2500':
     return 25;
     break;
-  case '< 2100':
+  case '< 2500':
     return "cannot travel that far";
     break;
 }

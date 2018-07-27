@@ -7,7 +7,7 @@ function distanceFromHqInFeet(blockNumber){
 }
 
 function distanceTravelledInFeet(departureBlock, arrivalBlock){
-  return (arrivalBlock - departureBlock) * 264
+  return Math.abs(arrivalBlock - departureBlock) * 264
 
 
 }

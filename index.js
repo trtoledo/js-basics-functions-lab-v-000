@@ -15,7 +15,7 @@ function calculatesFarePrice (departureBlock, arrivalBlock){
   let distanceAfter400Feet = distanceTravelledInFeet(departureBlock, arrivalBlock)
 
   switch (distanceAfter400Feet) {
-  case '<= 0':
+  case '<= 400':
     return 0;
     break;
   case '> 0 && 1600':

@@ -5,4 +5,11 @@ function distanceFromHqInBlocks(blockNumber) {
 function distanceFromHqInFeet(blockNumber){
   return distanceFromHqInBlocks(blockNumber) * 264;
 }
+
+function distanceTravelledInFeet(departureBlock, arrivalBlock){
+  return (arrivalBlock - departureBlock) * 264
+
+
+}
+
 // Code your solution in this file!

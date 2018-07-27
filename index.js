@@ -13,7 +13,7 @@ function distanceTravelledInFeet(departureBlock, arrivalBlock){
 function calculatesFarePrice (departureBlock, arrivalBlock){
   //return distanceTravelledInFeet(departureBlock, arrivalBlock)
 
-  switch (distanceTravelledInFeet(departureBlock, arrivalBlock)- 400) {
+  switch (distanceTravelledInFeet(departureBlock, arrivalBlock) - 400) {
   case '<= 0':
     return 0;
     break;

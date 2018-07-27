@@ -28,19 +28,19 @@ function calculatesFarePrice (departureBlock, arrivalBlock){
    //return "cannot travel that far";
 
 
-  //switch (distanceAfter400Feet) {
-  //case 'distanceAfter400Feet <= 400':
-    //return 0;
-    //break;
-  //case 'distanceAfter400Feet > 400 && distanceAfter400Feet < 2000':
-    //return (distanceAfter400Feet - 400) * 0.02
-    //break;
-  //case 'distanceAfter400Feet > 2000 && distanceAfter400Feet < 2500':
-    //return 25;
-    //break;
-  //case 'distanceAfter400Feet < 2500':
-    //return "cannot travel that far";
-    //break;
+  switch (distanceAfter400Feet) {
+  case 'distanceAfter400Feet <= 400':
+    return 0;
+    break;
+  case 'distanceAfter400Feet > 400 && distanceAfter400Feet < 2000':
+    return (distanceAfter400Feet - 400) * 0.02
+    break;
+  case 'distanceAfter400Feet > 2000 && distanceAfter400Feet < 2500':
+    return 25;
+    break;
+  case 'distanceAfter400Feet < 2500':
+    return "cannot travel that far";
+    break;
 }
 
 }

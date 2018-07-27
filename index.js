@@ -18,10 +18,10 @@ function calculatesFarePrice (departureBlock, arrivalBlock){
   case '<= 400':
     return 0;
     break;
-  case '> 0 && 1600':
+  case '> 400 && 2000':
     return (distanceAfter400Feet) * 0.02
     break;
-  case '> 1600 && < 2100':
+  case '> 2000 && < 2500':
     return 25;
     break;
   case '< 2100':
